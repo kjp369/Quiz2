@@ -1,3 +1,9 @@
+/**
+*@file course.h
+*@author Mathew Aberegg/John Dolan(source code), Kaylee Poole (documentation)
+*@brief Course class that contains the necessary info for the the course
+*/
+
 /***********************************************************************8
 	This class stores the three essential features of a completed 
 	college course: the course number, the grade received, and the 

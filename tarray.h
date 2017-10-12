@@ -1,3 +1,8 @@
+/**
+*@file tarray.h
+*@author Mathew Aberegg/John Dolan(source code), Kaylee Poole (documentation)
+*@brief Tarray class that constructs the linked list 
+*/
 /*********************************************************************
 	This is a class to introduce you to the syntax of working with 
 	template classes. Notice that the type being stored is completely

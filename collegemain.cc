@@ -1,3 +1,9 @@
+/**
+*@file collegemain.cc
+*@author Mathew Aberegg/John Dolan(source code), Kaylee Poole (documentation)
+*@brief The main for the project. Contains the menu that asks for the user's input to create the course list. 
+*/
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.

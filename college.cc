@@ -1,3 +1,9 @@
+/**
+*@file college.cc
+*@author Mathew Aberegg(source code), Kaylee Poole (documentation)
+*@brief Implementation for college.h 
+**/
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -68,7 +74,15 @@ College& College::operator =(const College& other){
 	}
 	return * this;
 }
-
+/**
+*@brief Adds the course to the linked list.
+*@param c a course object that describes the user's college course
+*@param previous a node that represents the previous node in the linked list
+*@param cursor a node that repesents the current node in the linked list
+*@param newnode a node that gets added to the linked list
+*@param tmpptr a node that is used to temporarily  hold a course 
+*@return does not have a return
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;

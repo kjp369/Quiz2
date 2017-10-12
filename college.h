@@ -1,3 +1,9 @@
+/**
+*@file college.h
+*@author Mathew Aberegg(source code), Kaylee Poole (documentation)
+*@brief College class that ontains the functions that affect the list of courses such as: add, remove and display. 
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3

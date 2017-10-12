@@ -1,3 +1,8 @@
+/**
+*@file course.cc
+*@author Mathew Aberegg/John Dolan(source code), Kaylee Poole (documentation)
+*@brief Implemenation for course.h 
+*/
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.
@@ -13,7 +18,14 @@ using namespace std;
 course::course(){
     hours = 0.0;
 }
-
+/**
+*@breif Gets the user or file input for the college course
+*@param ins an input file stream
+*@param course_number the course number for the course
+*@param grade the grade in the course
+*@param hours the credit hours for the course
+*@return does not have a return
+*/
 void course::input(std::istream& ins){
     if(ins == cin){
 	cout<<"Course Number: ";
@@ -39,6 +51,14 @@ void course::input(std::istream& ins){
     }
 }
 
+/**
+*@breif Outputs the course info to the user or file
+*@param outs an output file stream
+*@param course_number the course number for the course
+*@param grade the grade in the course
+*@param hours the credit hours for the course
+*@return does not have a return
+*/
 void course::output(std::ostream& outs)const{
     if(outs == cout){
 	outs<<"Course Number:"<<course_number<<endl;
